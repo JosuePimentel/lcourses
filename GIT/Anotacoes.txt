@@ -3,3 +3,5 @@ git init - Fazer dentro da Pasta que vc quer criar um repositorio.
 git clone link* - clonar um repositorio pelo terminal, *link do repositorio no github.
 git status - ver o status do repositorio, se há mudanças ou commits a fazer.
 git add nomeDoArquivo - adicionar um aquivo para ser feito posteriormente o commit.
+git diff * - ver a diferença após alguma mudança feita, comando deve ser colocado enquanto ainda estiver como Modified, caso esteja no stagged, adicione no * --staged.
+git commit -m "mensagem" - commitar o que foi adicionado (git add).
